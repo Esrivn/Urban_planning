@@ -1,0 +1,70 @@
+.app-home-attributes {
+    display: block;
+    font-size: 16px;
+
+    .form-control-header {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 1em;
+
+        > div {
+            width: inherit;
+        }
+    }
+
+    .form-control-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    // .layer-select {
+    //     width: 100%;
+
+    //     display: flex;
+    //     align-items: flex-start;
+    //     flex-flow: column;
+    //     padding: 0em 1em;
+
+    //     .item-label {
+    //         height: 60px;
+    //         display: flex;
+    //         align-items: center;
+    //     }
+
+    //     .item-control {
+    //         height: 60px;
+    //         width: 100%;
+
+    //         > .p-dropdown.p-inputwrapper {
+    //             width: inherit;
+    //         }
+    //     }
+    // }
+
+    // .form-control-item {
+    //     padding: 0em 1em;
+
+    //     .item-label {
+    //         font-weight: 500;
+    //         word-break: break-word;
+    //         font-size: 0.8em;
+    //         margin-bottom: 0.25em;
+    //     }
+    // }
+
+    // .p-inputtext {
+    //     padding: 5px;
+    // }
+
+    // .p-calendar {
+    //     height: 36px;
+    // }
+
+    // .footer-item {
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    // }
+}

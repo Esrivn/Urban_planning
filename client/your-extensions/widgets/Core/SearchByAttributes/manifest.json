@@ -1,0 +1,19 @@
+{
+  "name": "SearchByAttributes",
+  "label": "Search By Attributes",
+  "type": "widget",
+  "version": "1.9.0",
+  "exbVersion": "1.9.0",
+  "author": "Dai Nguyen",
+  "description": "Search By Attributes Widget, get layers from map and create dynamic form search",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {},
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 800,
+    "height": 500
+  }
+}

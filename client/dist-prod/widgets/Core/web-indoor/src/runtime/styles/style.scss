@@ -1,0 +1,50 @@
+$height_header: 60px;
+$bgcolor_header: #fff;
+$width_panel_menu: 72px;
+$color_panel_menu: #0079c1;
+$width_panel_content: 300px;
+
+
+.widget-indoor {
+    .indoor_container {
+        display: flex;
+        flex-direction: column;
+
+        .indoor__header {
+            background-color: $bgcolor_header;
+            height: $height_header;
+            display: flex;
+            flex-direction: row;
+
+            .header__logo {}
+
+            .header__search {}
+        }
+
+
+        .indoor__content {
+            display: flex;
+            flex-direction: row;
+            height: calc(100vh - #{$height_header});
+
+            .indoor_panel {
+                display: flex;
+                flex-direction: row;
+
+                .panel__menu {
+                    width: $width_panel_menu;
+                    background-color: $color_panel_menu;
+                }
+
+                .panel__content {
+                    width: $width_panel_content;
+                }
+            }
+
+            .indoor__map {
+                width: calc(100vw - #{$width_panel_menu});
+            }
+        }
+
+    }
+}

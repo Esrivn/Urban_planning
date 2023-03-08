@@ -1,0 +1,49 @@
+.app-view-diagrams {
+    // background-color: burlywood;
+    display: block;
+
+    .map-inside {
+        width: inherit;
+        height: 500px;
+        margin-top: 1rem;
+        border: 1px solid green;
+    }
+
+    .list-btn-tool {
+        display: flex;
+    }
+
+    .icn-tool {
+        width: 32px;
+        height: 32px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 10px;
+        box-shadow: 0px 0px 4px 2px;
+        cursor: pointer;
+
+        &.active {
+            background-color: #9cdcfc;
+        }
+    }
+
+    .group-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+        margin-bottom: 1rem;
+
+        .group-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            width: 120px;
+        }
+
+        .group-body {
+            display: flex;
+            flex-wrap: wrap;
+            width: calc(100% - 120px);
+        }
+    }
+}

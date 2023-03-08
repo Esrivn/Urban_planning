@@ -1,0 +1,27 @@
+.header-widget {
+    height: 50px;
+
+    .title {
+        font-size: 18px;
+        color: #bcf8d4;
+    }
+
+    .btn-header {
+        div {
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            cursor: pointer;
+        }
+
+        .btn-terminnal {
+            width: 35px;
+            height: 33px;
+        }
+
+        .btn-validate {
+            width: 34px;
+            height: 33px;
+        }
+    }
+}

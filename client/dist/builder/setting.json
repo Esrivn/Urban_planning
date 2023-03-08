@@ -1,0 +1,9 @@
+{
+  "devEnv": {
+    "prod": {
+      "portalUrl": "https://gisun.esrivn.net/portal",
+      "clientId": "Dly3r4hzhyCruz6x",
+      "isWebTier": false
+    }
+  }
+}

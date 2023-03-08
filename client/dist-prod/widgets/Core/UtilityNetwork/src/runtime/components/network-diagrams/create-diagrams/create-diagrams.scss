@@ -1,0 +1,32 @@
+.app-create-diagrams {
+    .icn-tool {
+        width: 32px;
+        height: 32px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 10px;
+        box-shadow: 0px 0px 4px 2px;
+        cursor: pointer;
+
+        &.active {
+            background-color: #9cdcfc;
+        }
+    }
+
+    .btn-control {
+        display: flex;
+    }
+
+    .store-diagram-group {
+        display: flex;
+        flex-flow: column;
+
+        >.footer-btn {
+            align-items: center;
+            display: flex;
+            justify-content: flex-end;
+            margin: 1rem 0rem;
+        }
+    }
+}

@@ -1,0 +1,230 @@
+{
+  "layerUrls": {
+    "urlDistric" : "https://gisun.esrivn.net/server/rest/services/DiaChinh/DiaChinh/FeatureServer/4",
+    "urlSubdistric": "https://gisun.esrivn.net/server/rest/services/DiaChinh/DiaChinh/FeatureServer/3",
+    "arrUrlMap": [{
+      "year": 2020,
+      "urlTileCache": "https://gisun.esrivn.net/server/rest/services/Hosted/QHPK2_Tile/MapServer"
+    }],
+    "urlGeocodeServer" : "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer/suggest",
+    "Cadastral": {
+      "name": "Thông tin thửa đất",
+      "url": "https://gisun.esrivn.net/server/rest/services/DiaChinh/Th%E1%BB%ADa_%C4%90%E1%BA%A5t/MapServer/0",
+      "field":["DienTich", "MucDichSuDungDat", "MaPhuongXa", "MaQuanHuyen","SoTo","SoThua"],
+      "areaField": "DienTich"
+    },
+    "urlGeometry": "https://gisun.esrivn.net/server/rest/services/Utilities/Geometry/GeometryServer",
+    "Urban": {
+      "name": "Thông tin quy hoạch sử dụng đất",
+      "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/Th%E1%BB%ADa_%C4%91%E1%BA%A5t/MapServer/0",
+      "field":["mucDichSuDungQH", "namQuyHoach", "dienTich"]
+    },
+    "project":{
+      "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/ThonTinDoAn/MapServer/0",
+      "field": ["MaDuAn", "TenDuAn", "SoQD", "DienTich","TyLe","QuyMoDanSo", "TinhTrangPheDuyet", "DonViQuanLy", "ChuDauTu"],
+      "layer": 0,
+      "domain": {
+        "fields": ["TinhTrangPheDuyet", "DonViQuanLy"],
+        "domainName": ["DM_TTDA_TinhTrangPheDuyet", "DMDonViQuanLy_11"],
+        "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/ThonTinDoAn/MapServer"
+      }
+    },
+    "QuyHoachXayDung":{
+      "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/QuyHoachXDChiTiet/MapServer/0",
+      "field": ["KyHieuLoaiDat","TangCaoXayDung", "MatDoXayDungTrungBinh", "QuyMoDanSo","DienTich","TenDuAn"]
+    },
+    "scale": {
+      "300000": [],
+      "100000": [
+        {
+          "name": "Vùng quy hoạch",
+          "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/QuyHoachXD/MapServer/50",
+          "field":["SoQD","TenDuAn","DienTich"],
+          "color": "#800080"
+        }
+      ],
+      "70000": [
+        {
+          "name": "Vùng quy hoạch",
+          "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/QuyHoachXD/MapServer/46",
+          "field":["SoQD","TenDuAn","DienTich"],
+          "color": "#800080"
+        },
+        {
+          "name": "Quy hoạch phát triển đô thị",
+          "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/QuyHoachXD/MapServer/48",
+          "field":["TenKhuChucNang","KyHieuLoaiDat","DienTich","TenPhuongXa","TenQuanHuyen"],
+          "color": "#ADFF2F",
+          "areaField": {  
+            "field": "DienTich",
+            "unit" : "ha"
+          }
+        }
+      ],
+      "50000": [
+        {
+          "name": "Vùng quy hoạch",
+          "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/QuyHoachXD/MapServer/40",
+          "field":["SoQD","TenDuAn","DienTich"],
+          "color": "#800080"
+        },
+        {
+          "name": "Quy hoạch phát triển đô thị",
+          "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/QuyHoachXD/MapServer/43",
+          "field":["TenKhuChucNang","KyHieuLoaiDat","DienTich","TenPhuongXa","TenQuanHuyen"],
+          "color": "#ADFF2F",
+          "areaField": {  
+            "field": "DienTich",
+            "unit" : "ha"
+          }
+        }
+      ],
+      "32000": [
+        {
+          "name": "Ranh quy hoạch phân khu và nông thôn mới",
+          "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/QuyHoachXD/MapServer/36",
+          "field":["SoQD","TenDuAn","DienTich"],
+          "color": "#20B2AA"
+        },
+        {
+          "name": "Quy hoạch phát triển đô thị",
+          "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/QuyHoachXD/MapServer/38",
+          "field":["TenKhuChucNang","KyHieuLoaiDat","DienTich","TenPhuongXa","TenQuanHuyen"],
+          "color": "#ADFF2F",
+          "areaField": {  
+            "field": "DienTich",
+            "unit" : "ha"
+          }
+        }
+      ],
+      "16000": [
+        {
+          "name": "Ranh quy hoạch phân khu và nông thôn mới",
+          "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/QuyHoachXD/MapServer/31",
+          "field":["SoQD","TenDuAn","DienTich"],
+          "color": "#20B2AA"
+        },
+        {
+          "name": "Quy hoạch chung huyện lỵ",
+          "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/QuyHoachXD/MapServer/32",
+          "field": ["TenKhuChucNang", "TenCongTrinhXayDung", "MaDuAn", "KyHieuODat", "KyHieuLoDat"],
+          "color": "#E8A317"
+        } ,
+        {
+          "name": "Quy hoạch phát triển đô thị",
+          "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/QuyHoachXD/MapServer/33",
+          "field":["TenKhuChucNang","KyHieuLoaiDat","DienTich","TenPhuongXa","TenQuanHuyen"],
+          "areaField": {  
+            "field": "DienTich",
+            "unit" : "ha"
+          }
+        }
+      ], 
+      "8000": [
+        {
+          "name": "Vùng quy hoạch chi tiết",
+          "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/QuyHoachXD/MapServer/2",
+          "field":["TenDuAn","DienTich"],
+          "color": "#00FFFF"
+        },  {
+          "name": "Ranh quy hoạch phân khu và nông thôn mới",
+          "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/QuyHoachXD/MapServer/31",
+          "field":["SoQD","TenDuAn","DienTich"],
+          "color": "#20B2AA"
+        }, {
+          "name": "Quy hoạch chung huyện lỵ",
+          "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/QuyHoachXD/MapServer/6",
+          "field": ["TenKhuChucNang", "TenCongTrinhXayDung", "MaDuAn", "KyHieuODat", "KyHieuLoDat"],
+          "color": "#E8A317"
+        } , {
+          "name": "Quy hoạch phát triển đô thị",
+          "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/QuyHoachXD/MapServer/33",
+          "field":["TenKhuChucNang","KyHieuLoaiDat","DienTich","TenPhuongXa","TenQuanHuyen"],
+            "areaField": {  
+            "field": "DienTich",
+            "unit" : "ha"
+          }
+        }
+      ], 
+      "6000": [
+        {
+          "name": "Vùng quy hoạch chi tiết",
+          "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/QuyHoachXD/MapServer/16",
+          "field":["TenDuAn","DienTich"],
+          "color": "#00FFFF",
+          "areaField": {  
+            "field": "DienTich",
+            "unit" : "ha"
+          }
+        }, {
+            "name": "Quy hoạch chi tiết - Sử dụng đất",
+            "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/QuyHoachXD/MapServer/19",
+            "field": ["TenKhuChucNang", "TenCongTrinhXayDung", "MaDuAn", "KyHieuODat", "KyHieuLoDat"],
+            "color": "#00008B"
+        },{
+          "name": "Quy hoạch chung huyện lỵ - Sử dụng đất",
+          "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/QuyHoachXD/MapServer/20",
+          "field": ["TenKhuChucNang", "TenCongTrinhXayDung", "MaDuAn", "KyHieuODat", "KyHieuLoDat"],
+          "color": "#E8A317"
+        },  {
+          "name": "Quy hoach phát triển đô thị - Sử dụng đất",
+          "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/QuyHoachXD/MapServer/21",
+          "field": ["TenKhuChucNang", "TenCongTrinhXayDung", "MaDuAn", "KyHieuODat", "KyHieuLoDat"],
+          "color": "#00FFFF"
+        } 
+      ],
+      "2000": {
+        "isPacel": true,
+        "Cadastral": {
+          "name": "Thông tin thửa đất",
+          "url": "https://gisun.esrivn.net/server/rest/services/DiaChinh/Th%E1%BB%ADa_%C4%90%E1%BA%A5t/MapServer/0",
+          "field":["DienTich", "MucDichSuDungDat", "MaPhuongXa", "MaQuanHuyen","SoTo","SoThua"]
+        },
+        "Urban": {
+          "name": "Thông tin quy hoạch sử dụng đất",
+          "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/Th%E1%BB%ADa_%C4%91%E1%BA%A5t/MapServer/0",
+          "field":["mucDichSuDungQH", "namQuyHoach", "dienTich"]
+        },
+        "project":{
+          "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/ThonTinDoAn/MapServer/0",
+          "field": ["MaDuAn", "TenDuAn", "TinhTrangPheDuyet", "SoQD", "DienTich"]
+        },
+        "QuyHoachXayDung":{
+          "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/QuyHoachXDChiTiet/MapServer/0",
+          "field": ["KyHieuLoaiDat","TangCaoXayDung", "MatDoXayDungTrungBinh", "QuyMoDanSo","DienTich","TenDuAn"]
+        }
+      },
+      "125": [
+        {
+          "name": "Vùng quy hoạch chi tiết",
+          "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/QuyHoachXD/MapServer/2",
+          "field":["TenDuAn","DienTich"],
+          "color": "#00FFFF",
+          "areaField": {  
+            "field": "DienTich",
+            "unit" : "ha"
+          }
+        },
+       {
+        "name": "Quy hoạch chi tiết - Sử dụng đất",
+        "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/QuyHoachXD/MapServer/5",
+        "field": ["TenKhuChucNang", "TenCongTrinhXayDung", "MaDuAn", "KyHieuODat", "KyHieuLoDat"],
+        "color": "#00008B"
+      },
+        {
+          "name": "Quy hoạch chung huyện lỵ - Sử dụng đất",
+          "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/QuyHoachXD/MapServer/6",
+          "field": ["TenKhuChucNang", "TenCongTrinhXayDung", "MaDuAn", "KyHieuODat", "KyHieuLoDat"],
+          "color": "#E8A317"
+        } ,
+        {
+          "name": "uy hoach phát triển đô thị - Sử dụng đất",
+          "url": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/QuyHoachXD/MapServer/7",
+          "field": ["TenKhuChucNang", "TenCongTrinhXayDung", "MaDuAn", "KyHieuODat", "KyHieuLoDat"],
+          "color": "#00FFFF"
+        } 
+      ]
+
+    }
+  }
+}

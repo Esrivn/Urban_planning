@@ -1,0 +1,14 @@
+[
+  {
+    "portalUrl": "https://esrivn.maps.arcgis.com",
+    "clientId": "RdIQWrnUH3InEsRx",
+    "supportsOAuth": true,
+    "isWebTier": false
+  },
+  {
+    "portalUrl": "https://gisun.esrivn.net/portal",
+    "clientId": "Dly3r4hzhyCruz6x",
+    "supportsOAuth": true,
+    "isWebTier": false
+  }
+]

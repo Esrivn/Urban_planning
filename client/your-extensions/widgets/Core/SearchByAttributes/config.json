@@ -1,0 +1,10 @@
+{
+  "author": "Dai Nguyen",
+  "fields": "",
+  "item_template": {
+    "HCM_6628": ["SUBNETWORKNAME", "ISDIRTY", "GLOBALID"],
+    "HCM_8515": ["OBJECTID", "ASSETTYPE", "ASSOCIATIONSTATUS", "GLOBALID"],
+    "HCM_3219": ["SUBNETWORKNAME", "ISDIRTY", "GLOBALID"],
+    "HCM_3238": ["SUBNETWORKNAME", "ISDIRTY", "GLOBALID"]
+  }
+}

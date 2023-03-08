@@ -1,0 +1,37 @@
+$color-border: aquamarine;
+
+.app-record-details {
+    .footer-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-control-header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        /* font-size: 20px; */
+        padding-left: 1em;
+    }
+
+    .form-control-item {
+        padding: 1em;
+        width: calc(100% - 1em);
+        display: flex;
+        align-items: center;
+        /* justify-content: flex-start; */
+        cursor: pointer;
+
+        .item-label {
+            width: 50%;
+            word-break: break-word;
+        }
+
+        .item-value {
+            width: 50%;
+            word-break: break-word;
+            padding-left: 1em;
+        }
+    }
+}

@@ -1,0 +1,309 @@
+{
+  "layerUrls": {
+    "urlQuyDat": "https://gisun.esrivn.net/server/rest/services/DaNang1/DaNang/MapServer/5",
+    "urlQuyDatNho": "https://gisun.esrivn.net/server/rest/services/DaNang1/DaNang/MapServer/6",
+    "DS_YKien_QD": "https://gisun.esrivn.net/server/rest/services/DaNang1/DaNang/MapServer/11",
+    "urlQuyDat_FeatureServer": "https://gisun.esrivn.net/server/rest/services/DaNang1/DaNang/FeatureServer/5",
+    "urlQuyDatNho_FeatureServer": "https://gisun.esrivn.net/server/rest/services/DaNang1/DaNang/FeatureServer/6",
+    "DS_YKien_QD_FeatureServer":"https://gisun.esrivn.net/server/rest/services/DaNang1/DaNang/FeatureServer/11",
+    "odata_Config": "https://coretech.vn:1314/odata/Config/Init?appid=13&userid=1",
+    "SysCacheWindow": "https://coretech.vn:1314/odata/SysCaches/SysCacheWindow/13"
+  },
+  "DS_menu": [
+    {
+      "name": "Quận/Huyện:",
+      "properties": {
+        "type": "select",
+        "value": null,
+        "setvalue": [{"code": "ALL", "name": "---Quận/Huyện---"}],
+        "key": "maHuyen",
+        "url":"https://gisun.esrivn.net/server/rest/services/DaNang1/DaNang/MapServer/0",
+        "--font_size_medium": "14px",
+        "--font_size_big": "16px",
+        "FieldId":"TenHuyen",
+        "FarentId": null,
+        "Where": "1=1",
+        "Extent" : {
+          "X_min": 12002515.2105,
+          "Y_min": 1795120.5257,
+          "X_max": 12060383.9467,
+          "Y_max": 1829577.8724
+        },
+        "returnGeometry": true,
+        "outFields": ["*"],
+        "FieldsCode": "maHuyen",
+        "FieldsName": "tenHuyen"
+      }
+    },
+    {
+      "name": "Phường/Xã:",
+      "properties": {
+        "type": "select",
+        "value": null,
+        "setvalue": [{"code": "ALL", "name": "---Phường/Xã---"}],
+        "key": "maXa",
+        "url":"https://gisun.esrivn.net/server/rest/services/DaNang1/DaNang/MapServer/2",
+        "--font_size_medium": "14px",
+        "--font_size_big": "16px",
+        "FieldId":"tenXa",
+        "FarentId": "TenHuyen",
+        "Where": null,
+        "Extent" : null,
+        "returnGeometry": true,
+        "outFields": ["*"],
+        "FieldsCode": "maXa",
+        "FieldsName": "tenXa"
+      }
+    },{
+      "name": "Tên dự án:",
+        "properties": {
+            "type": "text",
+            "value": null,
+            "setvalue": null,
+            "key": "TENDUAN",
+            "url": null,
+            "--font_size_medium": "14px",
+            "--font_size_big": "16px",
+            "FieldId":null,
+            "FarentId": null,
+            "Where": null,
+            "Extent" : null,
+            "returnGeometry": false,
+            "outFields": null,
+            "FieldsCode": null,
+            "FieldsName": null
+      }
+    },{
+      "name": "Ký hiệu:",
+        "properties": {
+            "type": "text",
+            "value": null,
+            "setvalue": null,
+            "key": "KYHIEU",
+            "url": null,
+            "--font_size_medium": "14px",
+            "--font_size_big": "16px",
+            "FieldId":null,
+            "FarentId": null,
+            "Where": null,
+            "Extent" : null,
+            "returnGeometry": false,
+            "outFields": null,
+            "FieldsCode": null,
+            "FieldsName": null
+      }
+    }
+  ],"DS_menu_QuyDatNho": [
+    {
+      "name": "Quận/Huyện:",
+      "properties": {
+        "type": "select",
+        "value": null,
+        "setvalue": [{"code": "ALL", "name": "---Quận/Huyện---"}],
+        "key": "MaHuyen",
+        "url":"https://gisun.esrivn.net/server/rest/services/DaNang1/DaNang/MapServer/0",
+        "--font_size_medium": "14px",
+        "--font_size_big": "16px",
+        "FieldId":"TenHuyen",
+        "FarentId": null,
+        "Where": "1=1",
+        "Extent" : {
+          "X_min": 12002515.2105,
+          "Y_min": 1795120.5257,
+          "X_max": 12060383.9467,
+          "Y_max": 1829577.8724
+        },
+        "returnGeometry": true,
+        "outFields": ["*"],
+        "FieldsCode": "maHuyen",
+        "FieldsName": "tenHuyen"
+      }
+    },
+    {
+      "name": "Phường/Xã:",
+      "properties": {
+        "type": "select",
+        "value": null,
+        "setvalue": [{"code": "ALL", "name": "---Phường/Xã---"}],
+        "key": "MaXa",
+        "url":"https://gisun.esrivn.net/server/rest/services/DaNang1/DaNang/MapServer/2",
+        "--font_size_medium": "14px",
+        "--font_size_big": "16px",
+        "FieldId":"tenXa",
+        "FarentId": "TenHuyen",
+        "Where": null,
+        "Extent" : null,
+        "returnGeometry": true,
+        "outFields": ["*"],
+        "FieldsCode": "maXa",
+        "FieldsName": "tenXa"
+      }
+    },{
+      "name": "Tên dự án:",
+        "properties": {
+            "type": "text",
+            "value": null,
+            "setvalue": null,
+            "key": "TenDuAn",
+            "url": null,
+            "--font_size_medium": "14px",
+            "--font_size_big": "16px",
+            "FieldId":null,
+            "FarentId": null,
+            "Where": null,
+            "Extent" : null,
+            "returnGeometry": false,
+            "outFields": null,
+            "FieldsCode": null,
+            "FieldsName": null
+      }
+    },{
+      "name": "Phân khu:",
+        "properties": {
+            "type": "text",
+            "value": null,
+            "setvalue": null,
+            "key": "Phankhu",
+            "url": null,
+            "--font_size_medium": "14px",
+            "--font_size_big": "16px",
+            "FieldId":null,
+            "FarentId": null,
+            "Where": null,
+            "Extent" : null,
+            "returnGeometry": false,
+            "outFields": null,
+            "FieldsCode": null,
+            "FieldsName": null
+      }
+    },{
+      "name": "Số lô:",
+        "properties": {
+            "type": "text",
+            "value": null,
+            "setvalue": null,
+            "key": "SoLo",
+            "url": null,
+            "--font_size_medium": "14px",
+            "--font_size_big": "16px",
+            "FieldId":null,
+            "FarentId": null,
+            "Where": null,
+            "Extent" : null,
+            "returnGeometry": false,
+            "outFields": null,
+            "FieldsCode": null,
+            "FieldsName": null
+      }
+    },{
+      "name": "Số tờ:",
+        "properties": {
+            "type": "text",
+            "value": null,
+            "setvalue": null,
+            "key": "ToBando",
+            "url": null,
+            "--font_size_medium": "14px",
+            "--font_size_big": "16px",
+            "FieldId":null,
+            "FarentId": null,
+            "Where": null,
+            "Extent" : null,
+            "returnGeometry": false,
+            "outFields": null,
+            "FieldsCode": null,
+            "FieldsName": null
+      }
+    },{
+      "name": "Số thửa:",
+        "properties": {
+            "type": "text",
+            "value": null,
+            "setvalue": null,
+            "key": "SoThua",
+            "url": null,
+            "--font_size_medium": "14px",
+            "--font_size_big": "16px",
+            "FieldId":null,
+            "FarentId": null,
+            "Where": null,
+            "Extent" : null,
+            "returnGeometry": false,
+            "outFields": null,
+            "FieldsCode": null,
+            "FieldsName": null
+      }
+    }
+  ],
+  "DS_Table":[
+    {
+      "name": "STT",
+       "field": "key",
+       "width": "5%"
+    },{
+      "name": "Tên dự án",
+       "field": "TENDUAN",
+       "width": "50%"
+    },{
+      "name": "Ký hiệu",
+       "field": "KYHIEU",
+       "width": "10%"
+    },{
+      "name": "DVHC",
+       "field": "TENXA",
+       "width": "10%"
+    },{
+      "name": "ThaoTac",
+       "field": "ThaoTac",
+       "width": "25%"
+    }
+  ],
+  "DS_TableQuyDatNho":[
+    {
+      "name": "STT",
+       "field": "key",
+       "width": "auto"
+    },{
+      "name": "Tên dự án",
+       "field": "TenDuAn",
+       "width": "auto"
+    },{
+      "name": "Phân khu",
+       "field": "Phankhu",
+       "width": "auto"
+    },{
+      "name": "Số lô",
+       "field": "SoLo",
+       "width": "auto"
+    },{
+      "name": "DVHC",
+       "field": "Phuong",
+       "width": "auto"
+    },{
+      "name": "ThaoTac",
+       "field": "ThaoTac",
+       "width": "auto"
+    }
+  ],
+  "DS_TableListofcomments":[
+    {
+      "name": "STT",
+       "field": "key"
+    },{
+      "name": "Họ và tên",
+       "field": "TEN"
+    },{
+      "name": "Ý kiến",
+       "field": "MOTA"
+    },{
+      "name": "Trạng thái",
+       "field": "PHEDUYET"
+    },{
+      "name": "ThaoTac",
+       "field": "ThaoTac"
+    }
+  ]
+   
+    
+    
+}

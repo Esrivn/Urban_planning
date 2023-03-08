@@ -1,0 +1,18 @@
+.custom-setting {
+    .div-row-setting {
+        width: 100%;
+
+        > div, >input {
+            width: inherit;
+        }
+
+        .p-dropdown-label, .p-inputtext {
+            padding: 5px 1rem !important;
+        }
+    }
+
+    .div-row-setting-label {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
