@@ -1,1 +1,0 @@
-define({_widgetLabel:"Filtro de Pisos",floorfilter_noMap:"Filtro de Pisos",floorfilter_notFloorAware:"O mapa selecionado não tem pisos"});

@@ -1,1 +1,0 @@
-define({_widgetLabel:"Filtre de planta",floorfilter_noMap:"Filtre de planta",floorfilter_notFloorAware:"El mapa seleccionat no té en compte les plantes"});

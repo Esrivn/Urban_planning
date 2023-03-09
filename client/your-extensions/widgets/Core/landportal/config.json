@@ -1,8 +1,0 @@
-{
-  "tabsearch": {
-    "tabname": "tra cứu thửa đất",
-    "urlapp": "https://coretech.vn:1314/odata/Config/Init?appid=15&userid=1",
-    "urlwindow": "https://coretech.vn:1314/odata/SysCaches/SysCacheWindow/1",
-    "urlquyhoachsdd": "https://gisun.esrivn.net/server/rest/services/QuyHoachXD/QuyHoachKeHoachSDDCapHuyen2022/MapServer"
-  }
-}

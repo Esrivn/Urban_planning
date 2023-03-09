@@ -1,1 +1,0 @@
-define({_widgetLabel:"Filter kata",floorfilter_noMap:"Filter kata",floorfilter_notFloorAware:"Odabrana karta nije svjesna katova"});

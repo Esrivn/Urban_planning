@@ -1,1 +1,0 @@
-define({_widgetLabel:"Gulvfilter",floorfilter_noMap:"Gulvfilter",floorfilter_notFloorAware:"Det valgte kartet gjenkjenner ikke gulv"});
